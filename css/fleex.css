@@ -14,9 +14,6 @@ html {
 .main__menu {
 	background: url(../images/main.png);
 	color: white;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 .main__menu .main__menu-top {
@@ -24,7 +21,6 @@ html {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	padding: 10px;
 }
 .main__menu .main__menu-top img {
 	width: 50px;
@@ -33,7 +29,10 @@ html {
 .main__menu .main__menu-text {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 	text-align: center;
+	margin-top: 100px;
 }
 .main__menu .main__menu-text h1 {
 	font-size: 48px;
@@ -60,6 +59,7 @@ html {
 	justify-content: space-around;
 	width: 700px;
 	padding: 30px;
+	margin-top: 40px;
 }
 
 .main__menu-digit .main__menu-digit_item {
@@ -74,3 +74,38 @@ html {
 .main__menu-digit .main__menu-digit_item p {
 	color: #999999;
 }
+
+/* projects */
+.projects {
+	text-align: center;
+	padding: 70px 40px;
+}
+.projects .project-text h1 {
+	opacity: 0.8;
+}
+.projects .projects-items {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 40px 50px;
+}
+.projects .projects-items .projects-item {
+	max-width: 240px;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+.projects .projects-items .projects-item h5 {
+	font-size: 27px;
+	opacity: .7;
+	margin-top: 10px;
+}
+.projects .projects-items .projects-item img {
+	width: 240px;
+}
+.projects .projects-items .projects-item p {
+	opacity: .6;
+}
+
+/* !projects */
