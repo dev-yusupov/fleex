@@ -130,3 +130,90 @@ html {
 
 
 /* !Request */
+
+/* What we do? */
+
+.what__we-do {
+	padding: 60px 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.what__we-do h1 {
+	margin-bottom: 50px;
+}
+.what__we-do .what__we-do-items {
+	display: flex;
+	flex-direction: row;
+}
+.what__we-do .what__we-do-items .what__we-do-item {
+	background: #F7F7F7;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/* !What we do? */
+
+
+.partners {
+	text-align: center;
+	background: #404149;
+	margin-top: 50px;
+	padding: 50px;
+}
+.partners h1 {
+	color:white;
+}
+.partners .partner {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+/* Contact */
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 60px;
+}
+.contacts .contact {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.contacts .contact .contact-item h3 {
+	color: #999999;
+}
+
+/* !Contact */
+
+/* footer */
+
+.footer {
+	background: #404149;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 10px;
+	color:white;
+}
+
+/* !footer */
+
+
+
+/* Margins */
+.mt-1 {
+	margin-top: 50px;
+}
+
+
